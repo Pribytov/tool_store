@@ -1,0 +1,41 @@
+.tool-item {
+    text-decoration: none;
+    width: 300px;
+    height: 450px;
+    color: white;
+    background-color: #363741;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tool-item:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.tool-item__details {
+    padding: 10px 20px;
+}
+
+.tool-item__genre {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool-item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tool-item__buy {
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+}
+
+.tool-item__description {
+    margin-top: 10px;
+    font-size: 14px;
+}

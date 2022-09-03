@@ -1,0 +1,12 @@
+.tool-feature {
+    background-color: #808284;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 2px 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.tool-feature:not(:last-child){
+    margin-right: 7px;
+}
