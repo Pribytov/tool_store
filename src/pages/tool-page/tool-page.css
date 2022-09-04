@@ -1,0 +1,17 @@
+.tool-page__content{
+    display: flex;
+}
+
+.tool-page__left {
+    width: 70%;
+}
+
+.tool-page__right {
+    width: 30%;
+}
+
+.tool-page__buy-tool {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

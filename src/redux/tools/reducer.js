@@ -3,11 +3,11 @@ import { createSlice } from '@reduxjs/toolkit';
 const toolsSlice = createSlice({
     name: 'tools',
     initialState: {
-        currentGame: null
+        currentTool: null
     },
     reducers: {
         setCurrentTool: (state, action) => {
-            state.currentGame = action.payload;
+            state.currentTool = action.payload;
         }
     }
 });
