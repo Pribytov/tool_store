@@ -6,6 +6,7 @@ import {
 import { Provider } from 'react-redux';
 import { HomePage } from './pages/home-page';
 import { ToolPage } from './pages/tool-page';
+import { OrderPage } from './pages/order-page';
 import { Header } from './components/header';
 import { store } from './redux';
 
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/app/:id" element={<ToolPage />} />
+            <Route path='/order/' element={<OrderPage />} />
           </Routes>
         </div>
       </Router>
