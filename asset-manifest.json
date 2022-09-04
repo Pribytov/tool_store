@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tool_store/static/css/main.e9a04d99.css",
-    "main.js": "/tool_store/static/js/main.0b5c21bc.js",
+    "main.js": "/tool_store/static/js/main.2512ed0b.js",
     "index.html": "/tool_store/index.html",
     "main.e9a04d99.css.map": "/tool_store/static/css/main.e9a04d99.css.map",
-    "main.0b5c21bc.js.map": "/tool_store/static/js/main.0b5c21bc.js.map"
+    "main.2512ed0b.js.map": "/tool_store/static/js/main.2512ed0b.js.map"
   },
   "entrypoints": [
     "static/css/main.e9a04d99.css",
-    "static/js/main.0b5c21bc.js"
+    "static/js/main.2512ed0b.js"
   ]
 }
